@@ -72,7 +72,7 @@ risultato.set("")  # Inizialmente vuoto
 
 #etichetta risultato
 etichetta=tk.Label(window, text="Risultato:", fg="#808080", font=("Verdana", 10))
-etichetta.place(x=70, y=220)
+etichetta.place(relx=0.5 , y=225, anchor="center")
 
 # Etichetta per visualizzare il risultato al centro
 risultato_label = tk.Label(window, textvariable=risultato, fg="#008080", font=("Verdana", 12))
