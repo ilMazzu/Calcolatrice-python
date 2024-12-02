@@ -2,7 +2,7 @@ import numpy
 import tkinter as tk
 
 window = tk.Tk()
-window.title("Finestra di prova")
+window.title("Calcolatrice")
 window.geometry("210x280")
 window.resizable(False, False)
 window.configure(background="light gray")
