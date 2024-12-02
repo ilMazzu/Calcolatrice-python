@@ -8,6 +8,7 @@ window.title("Calcolatrice")
 window.geometry("210x280")
 window.resizable(False, False)
 window.configure(background="light gray")
+#icona del programma
 im = Image.open("myIcon.ico")
 photo = ImageTk.PhotoImage(im)
 window.wm_iconphoto(True, photo)
