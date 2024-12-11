@@ -38,25 +38,25 @@ def divisione():
         risultato.set(num1 / num2)
 
 #interfatccia
-etichetta=tk.Label(window, text="Calcolatrice", fg="#008080", font=("Verdana", 20))
+etichetta=tk.Label(window, text="Calcolatrice", fg="#008080", font=("Verdana", 20), background="Light gray")
 etichetta.grid(row=0, column=1, sticky="N", padx=5, pady=5)
 
-etichetta=tk.Label(window, text="Inserisci il primo numero:", fg="#808080", font=("Verdana", 10))
+etichetta=tk.Label(window, text="Inserisci il primo numero:", fg="#808080", font=("Verdana", 10), background="Light gray")
 etichetta.grid(row=1, column=1, sticky="N", padx = 5)
 
 input_num1 = tk.Entry(window)
 input_num1.grid(row=2, column=1, sticky="N")
 
-etichetta=tk.Label(window, text="Inserisci il secondo numero:", fg="#808080", font=("Verdana", 10))
+etichetta=tk.Label(window, text="Inserisci il secondo numero:", fg="#808080", font=("Verdana", 10), background="Light gray")
 etichetta.grid(row=3, column=1, sticky="N", padx = 5, pady=5)
 
-etichetta=tk.Label(window, text="Inserisci il secondo numero:", fg="#808080", font=("Verdana", 10))
+etichetta=tk.Label(window, text="Inserisci il secondo numero:", fg="#808080", font=("Verdana", 10), background="Light gray")
 etichetta.grid(row=3, column=1, sticky="N", padx = 5, pady=5)
 
 input_num2 = tk.Entry(window)
 input_num2.grid(row=4, column=1, sticky="N")
 
-etichetta=tk.Label(window, text="Scegli l'operazione da svolgere", fg="#808080", font=("Verdana", 10))
+etichetta=tk.Label(window, text="Scegli l'operazione da svolgere", fg="#808080", font=("Verdana", 10), background="Light gray")
 etichetta.grid(row=5, column=1, sticky="N")
 
 #pulsanti operazione
@@ -77,11 +77,11 @@ risultato = tk.StringVar()
 risultato.set("")  # Inizialmente vuoto
 
 #etichetta risultato
-etichetta=tk.Label(window, text="Risultato:", fg="#808080", font=("Verdana", 10))
+etichetta=tk.Label(window, text="Risultato:", fg="#808080", font=("Verdana", 10), background="Light gray")
 etichetta.place(relx=0.5 , y=225, anchor="center")
 
 # Etichetta per visualizzare il risultato al centro
-risultato_label = tk.Label(window, textvariable=risultato, fg="#008080", font=("Verdana", 12))
+risultato_label = tk.Label(window, textvariable=risultato, fg="#008080", font=("Verdana", 12), background="Light gray")
 risultato_label.place(relx=0.5 , y= 250, anchor="center")
 
 
