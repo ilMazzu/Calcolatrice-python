@@ -38,7 +38,7 @@ def divisione():
         risultato.set(num1 / num2)
 
 #interfatccia
-etichetta=tk.Label(window, text="Calcolatrice", fg="#008080", font=("Verdana", 20), background="Light gray")
+etichetta=tk.Label(window, text="Calcolatrice", fg="#008080", font=("Courier New ", 20), background="Light gray")
 etichetta.grid(row=0, column=1, sticky="N", padx=5, pady=5)
 
 etichetta=tk.Label(window, text="Inserisci il primo numero:", fg="#808080", font=("Verdana", 10), background="Light gray")
@@ -75,7 +75,7 @@ mult_button.place(x=170, y=180)
 # Variabile risultato
 risultato = tk.StringVar()
 risultato.set("")  # Inizialmente vuoto
-
+background="Light gray"
 #etichetta risultato
 etichetta=tk.Label(window, text="Risultato:", fg="#808080", font=("Verdana", 10), background="Light gray")
 etichetta.place(relx=0.5 , y=225, anchor="center")
